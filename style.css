@@ -1,0 +1,75 @@
+body { 
+	max-width: 1600px; 
+	margin: 0 auto !important; 
+	float: none !important; 
+    background-color: whitesmoke;
+    margin: 30px;
+        -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+div {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: whitesmoke;
+    height: 50px;
+    display: -webkit-flex;
+    display:         flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.header div {
+    display: flex;
+    margin: auto;
+    border: 1px solid tomato;
+    flex: 1 1 0%;
+}
+
+.header .name {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 3;
+    padding-left: 2em;
+    font-weight: bolder;
+}
+
+.header .link {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.first {
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+
+.first div {
+    
+}
+
+.first .big {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.first .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first .button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 0.3em;
+}
